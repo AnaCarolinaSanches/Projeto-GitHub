@@ -1,0 +1,54 @@
+<div class ="card-search">
+
+    <div class ="card-titulo">
+  
+      Projeto GitHub
+  
+    </div>
+
+        <div>
+
+            <input type="text" class = " Pesquisar " id = "pesquisa" >
+        
+        </div>
+  
+ <div>
+
+    <button class = " botao-procurar " (click) = " getPerfil() "> Pesquisar... </button>
+
+ </div>   
+
+
+  </div>
+
+  <div *ngIf="perfil">
+
+    <div class="card-resultado">
+  
+      <img class="img" src="{{perfil.avatar_url}}">
+  
+      <div class="card-informacoes">
+  
+        <label>Perfil: {{perfil.login}}</label><br>
+  
+        <label>Empresa: {{perfil.company}}</label><br>
+  
+        <label>Site/Blog:  {{perfil.blog}}</label><br>
+  
+        <label>Localidade: {{perfil.location}}</label><br>
+  
+        <label>Membro desde: {{perfil.created_at}}</label><br>
+
+        <div class="card-infos"></div>
+
+        <label>Repositórios: {{perfil.public_repos}}</label><br>
+  
+        <label>Seguidor:  {{perfil.followers}}</label><br>
+  
+        <label>Seguindo: {{perfil.following}}</label><br>
+  
+      </div>
+  
+    </div>
+  
+    </div>

@@ -1,0 +1,53 @@
+.card-titulo{
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.pesquisa{
+
+    padding: 20px 25px 20px 25px;
+
+}
+
+.botao-procurar{
+
+    margin-top: 10px;
+    padding: 10px 25px 10px 25px;
+    
+
+}
+
+.card-resultado{
+
+    margin-top: 30px;
+    display:table-cell;
+    background-color: rgb(73, 255, 112);
+}
+
+.img{
+
+    margin-top: 10px;
+
+}
+.card-informacoes{
+
+    margin-top: 10px;
+    float: right;
+    width: 500px;
+    padding-left: 50px;
+    font-size: 30px;
+    
+}
+
+.card-infos{
+    
+    margin-top: 20px;
+    padding-top: 20px;
+    float: right;
+    width: 500px;
+    padding-left: 50px;
+    font-size: 22px;
+    
+}
